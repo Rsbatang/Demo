@@ -1,14 +1,22 @@
 const PI = 3.14159;
 
 function startGenerator() {
-    generateBody();
-    generateAge();
-    generateHair();
-    generateEyes();
-    generateAttribute();
-    generateCharacter();
-    generateCup();
-    generateSkin();
+    // generateBody();
+    // generateAge();
+    // generateHair();
+    // generateEyes();
+    // generateAttribute();
+    // generateCharacter();
+    // generateCup();
+    // generateSkin();
+    mian();
+}
+
+function mian() {
+    var tbody1 = document.getElementById("tbody1");
+    tbody1.style.display='none';
+    var table1 = document.getElementById("table1");
+    table1.append("你已经有老公了，就别想了!!!")
 }
 
 function generateCup() {
